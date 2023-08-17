@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gymWrite</title>
+    <style>
+         *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            width:100%;
+            background-color: rgba(238, 235, 235,0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        form{
+            width: 60%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        table{
+            border: 1px solid black;
+            border-collapse: collapse; /*테두리 간에 간격은 없애준다*/
+            width: 700px;
+            margin: 20px auto 0;
+        }
+        th,td{
+            border: 1px solid black;
+            height: 30px;
+        }
+        th{
+            background-color: #5467F5;
+            color: white;
+        }
+        input[type="text"]{
+            width: 100%;
+            height: 100%;
+            border: 0 solid black;
+        }
+        textarea::placeholder{
+            line-height: 600px;
+        }
+        textarea::placeholder,input::placeholder{
+            padding-left: 10px;
+        }
+        textarea{
+            width: 100%;
+            height: 600px;
+            resize: none;/*모서리 하단에 크기를 조절하는 것을 막아줌*/
+            border: 0 solid black;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            color: white;
+            font-weight: bold;
+            margin: 10px 0 10px 825px;
+            background-color: #5467F5;
+            border: 1px solid rgba(238, 235, 235,0.6);
+            border-radius: 5%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form><!--서버에 보내기 위해 form 태그를 사용함--> 
+        <table><!--테이블 이용 10행, 2열의 표를 만듬-->
+            <tr><!--tr은 하나의 행을 의미함-->
+                <th colspan="2">공지사항 등록</th><!--th 제목의 셀을 의미함, colspan=2는 2칸의 셀은 가로로 병합을 의미-->
+            </tr>
+            <tr>
+                <th>제목</th>
+                <td><input type="text" placeholder="제목을 입력해주세요" id="title"></td><!--td는 하나의 셀을 의미-->
+                <!--input text를 이용해 text를 받을 수 있고 placeholder를 이용해 작성 전 안내문구를 표시할 수 있다-->
+            </tr>
+
+            <tr>
+                <th>내용</th>
+                <!--textarea를 사용해 긴글을 작성 받게 합니다-->
+                <td><textarea id="content" placeholder="내용을 입력해주세요"></textarea></td>
+            </tr>
+        </table>
+            <button type="submit" value="등록"> 등록 </button>
+            <!--button type=submit을 이용하여 입력한 값들을 전송합니다-->
+    </form>
+</body>
+</html>
