@@ -1,0 +1,13 @@
+INDEX VERSION 1.132
+C:\Users\com\Desktop\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3408361105.index
+\bbagym\src\main\java
+C:\Users\com\Desktop\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\842744199.index
+\bbagym\src\main\java
+C:\Users\com\Desktop\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1143344243.index
+\test\src\main\java
+C:\Users\com\Desktop\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3795945603.index
+\bbagym\src\main\java
+C:\Users\com\Desktop\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2905471582.index
+\bbagym\src\main\java
+C:\Users\com\Desktop\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\22588575.index
+\bbagym\src\main\java
